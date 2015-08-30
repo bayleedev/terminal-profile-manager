@@ -37,3 +37,5 @@ tpm use Grass --default # Use Grass, and set it as the default for new terminals
 tpm install SolarizedDark              # Install a pre-defined profile
 tpm install Custom http://git.io/vGLaB # Install a custom profile
 ~~~
+
+Remote themes are listed in the [profiles.json](./profiles.json) file.
