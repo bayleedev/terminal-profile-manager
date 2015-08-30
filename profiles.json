@@ -1,16 +1,16 @@
 {
   "SolarizedDark": {
-    "url": "http://git.io/vGL2t",
+    "url": "https://raw.githubusercontent.com/tomislav/osx-terminal.app-colors-solarized/master/Solarized%20Dark.terminal",
     "site": "https://github.com/tomislav/osx-terminal.app-colors-solarized",
     "author": "Tomislav Filipčić"
   },
   "SolarizedLight": {
-    "url": "http://git.io/vGLaW",
+    "url": "https://raw.githubusercontent.com/tomislav/osx-terminal.app-colors-solarized/master/Solarized%20Light.terminal",
     "site": "https://github.com/tomislav/osx-terminal.app-colors-solarized",
     "author": "Tomislav Filipčić"
   },
   "Tomorrow": {
-    "url": "http://git.io/vGLaB",
+    "url": "https://raw.githubusercontent.com/chriskempson/tomorrow-theme/master/OS%20X%20Terminal/Tomorrow%20Night%20Eighties.terminal",
     "site": "https://github.com/chriskempson/tomorrow-theme",
     "author": "Chris Kempson"
   }
