@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/terminal-profile-manager.rb'
+
+controller = ProfileController.new
+controller.run
