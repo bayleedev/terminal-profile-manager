@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.name          = 'terminal-profile-manager'
   s.email         = 'blainesch@gmail.com'
   s.homepage      = 'https://github.com/blainesch/terminal-profile-manager'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.summary       = 'Automate terminal profile management.'
   s.description   = 'Try out new profiles, and setup your mac easier.'
   s.licenses      = ['MIT']
