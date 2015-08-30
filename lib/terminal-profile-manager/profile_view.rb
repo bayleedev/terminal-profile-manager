@@ -51,7 +51,7 @@ class ProfileView
     name = args.first
     profile = Profile.new
     unless Profile.all.map(&:downcase).include?(name)
-      puts "Theme not installed."
+      puts "Profile not installed."
       return
     end
     if args.include?('--default')

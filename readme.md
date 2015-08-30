@@ -19,14 +19,14 @@ tpm help
 #### List
 
 ~~~
-tpm list            # List all locally installed themes
-tpm list --remote   # List themes that can be installed
+tpm list            # List all locally installed profile
+tpm list --remote   # List profile that can be installed
 ~~~
 
 #### Use
 
 ~~~
-tpm use Grass           # Use the grass theme in the current window
+tpm use Grass           # Use the grass profile in the current window
 tpm use Grass --all     # Use the grass them in all terminal windows
 tpm use Grass --default # Use Grass, and set it as the default for new terminals
 ~~~
@@ -35,5 +35,5 @@ tpm use Grass --default # Use Grass, and set it as the default for new terminals
 
 ~~~
 tpm install SolarizedDark              # Install a pre-defined profile
-tpm install Custom http://git.io/vGLaB # Install a custom theme
+tpm install Custom http://git.io/vGLaB # Install a custom profile
 ~~~
