@@ -25,11 +25,12 @@ class Profile
       .strip
   end
 
-  def self.install(name, path)
-    system "curl -L -o installed/#{name}.terminal #{path}"
-    system "open installed/#{name}.terminal"
-    OsaTerminal
-      .run('do script "exit" in window 1')
+  def self.install(name, profile_path)
+    download_path = File.expand_path("~/.tpm/installed/#{name}.terminal")
+    system "mkdir -p #{File.dirname(download_path)}"
+    system "curl -L -o #{download_path} #{profile_path}"
+    system "open #{download_path}"
+    OsaTerminal.run('do script "exit" in window 1')
   end
 
   def self.get_path(name)
