@@ -72,7 +72,7 @@ class ProfileView
       "Tasks:",
       "  tpm list [--remote]",
       "  tpm use PROFILE [--all] [--default]",
-      "  tpm install NAME [URL] [--apply] [--default]",
+      "  tpm install NAME [URL]",
       "  tpm help"
     ].each do |line|
       puts line
